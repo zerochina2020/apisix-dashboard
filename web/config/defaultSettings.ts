@@ -30,7 +30,7 @@ export default {
   },
   title: '中间件网关',
   pwa: false,
-  iconfontUrl: '',
+  iconfontUrl: '/apisix-dashboard/favicon.png',
   serveUrlMap: {
     dev: 'http://139.217.190.60',
     test: 'http://localhost:9000',
