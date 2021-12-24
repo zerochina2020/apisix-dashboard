@@ -41,12 +41,12 @@ export default defineConfig({
   },
   routes,
   layout: {
-    name: 'APISIX Dashboard',
+    name: '中间件网关',
     locale: true,
-    logo: '/favicon.png',
+    logo: '/apisix-dashboard/favicon.png',
   },
-  base: '/',
-  publicPath: '/',
+  base: '/apisix-dashboard/',
+  publicPath: '/apisix-dashboard/',
   define: {
     REACT_APP_ENV: REACT_APP_ENV || false,
   },
@@ -59,7 +59,7 @@ export default defineConfig({
   ignoreMomentLocale: true,
   proxy: proxy[REACT_APP_ENV || 'dev'],
   manifest: {
-    basePath: '/',
+    basePath: '/apisix-dashboard/',
   },
   outputPath: '../output/html',
   extraBabelPlugins: [

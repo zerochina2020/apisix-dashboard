@@ -28,7 +28,7 @@ export default {
   menu: {
     locale: true,
   },
-  title: 'APISIX Dashboard',
+  title: '中间件网关',
   pwa: false,
   iconfontUrl: '',
   serveUrlMap: {
